@@ -8,9 +8,9 @@ A lightweight React component that provides a smooth scrolling "Back to Top" but
 - Lightweight and easy to use
 
 ## 🎬 Demo
-[Live Demo](https://your-demo-website.com) *(Replace with actual URL)*
+[Live Demo](https://smooth-scroll-to-top.vercel.app/)
 
-![Smooth Scroll To Top Preview](https://your-screenshot-url.com/screenshot.png) *(Replace with actual screenshot URL)*
+![Smooth Scroll To Top Preview](https://github.com/friccardi310/smooth-scroll-to-top/blob/91929f7135837184da4589748fa07c32d0d383ee/demo/public/videos/demo.mp4)
 
 ## 🚀 Installation
 
@@ -71,4 +71,3 @@ This project is licensed under the MIT License.
 ---
 
 Made with ❤️ by [Frank Riccardi]
-

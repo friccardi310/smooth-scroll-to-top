@@ -8,15 +8,27 @@ A lightweight React component that provides a smooth scrolling "Back to Top" but
 - Lightweight and easy to use
 
 ## 🎬 Demo
-[Live Demo](https://your-demo-website.com) *(Replace with actual URL)*
+[Live Demo](https://smooth-scroll-to-top.vercel.app/)
 
-![Smooth Scroll To Top Preview](https://your-screenshot-url.com/screenshot.png) *(Replace with actual screenshot URL)*
+![Smooth Scroll To Top Preview](https://github.com/friccardi310/smooth-scroll-to-top/blob/91929f7135837184da4589748fa07c32d0d383ee/demo/public/videos/demo.mp4)
 
-## 🚀 Installation
+## Clone Repository
 
-Install via npm:
 ```sh
-npm install smooth-scroll-to-top
+git clone https://github.com/friccardi310/smooth-scroll-to-top
+```
+
+## Change Directory
+
+```sh
+cd smooth-scroll-to-top
+cd demo
+```
+
+## Package Installation
+
+```sh
+npm install
 ```
 
 Or using yarn:
@@ -24,46 +36,11 @@ Or using yarn:
 yarn add smooth-scroll-to-top
 ```
 
-## 📖 Usage
+## Run the App
 
-Import and use the component in your React app:
-```jsx
-import SmoothScrollToTop from "smooth-scroll-to-top";
-
-function App() {
-  return (
-    <div>
-      <SmoothScrollToTop
-        bgColor="#000"
-        color="white"
-        width="50px"
-        height="50px"
-        position="left"
-        visibilityOffset={300}
-        customStyle="border-radius: 50%; box-shadow: 2px 2px 5px rgba(0,0,0,0.3); right: 30px;"
-        customIcon="▲"
-      />
-    </div>
-  );
-}
-
-export default App;
+```sh
+npm run
 ```
-
-## ⚙️ Props
-| Prop | Type | Default | Description |
-|------|------|---------|-------------|
-| `bgColor` | string | `#000` | Background color of the button |
-| `color` | string | `#fff` | Text/icon color |
-| `width` | string | `50px` | Button width |
-| `height` | string | `40px` | Button height |
-| `position` | string | `right` | Position (`left` or `right`) |
-| `visibilityOffset` | number | `300` | Scroll distance before button appears |
-| `customStyle` | string | `""` | Additional CSS styles |
-| `customIcon` | JSX.Element | `null` | Custom icon component |
-
-## 🛠️ Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you’d like to change.
 
 ## 📜 License
 This project is licensed under the MIT License.
@@ -71,4 +48,3 @@ This project is licensed under the MIT License.
 ---
 
 Made with ❤️ by [Frank Riccardi]
-
